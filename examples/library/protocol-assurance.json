@@ -1,0 +1,8 @@
+{
+  "reference_n": 1139,
+  "control_n": 1402,
+  "future_n": 874,
+  "possible_tail_reference": 0.001,
+  "possible_tail_control": 0.001,
+  "independent_stages": true
+}

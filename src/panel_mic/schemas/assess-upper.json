@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "reference",
+    "upper_limit"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "reference": {
+      "$ref": "#/$defs/reference"
+    },
+    "upper_limit": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "percentile": {
+      "enum": [
+        0.99,
+        0.999
+      ]
+    },
+    "alpha": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "exclusiveMaximum": 0.5
+    }
+  },
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "thresholds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "counts": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "intervals": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "lower",
+                  "upper",
+                  "count"
+                ],
+                "properties": {
+                  "lower": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "upper": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "exclusiveMinimum": 0
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "lower_closed": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "point",
+                  "count"
+                ],
+                "properties": {
+                  "point": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "count": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "iid": {
+          "type": "boolean"
+        },
+        "label": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metadata": {
+          "type": "object"
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "thresholds",
+            "counts"
+          ],
+          "not": {
+            "required": [
+              "intervals"
+            ]
+          }
+        },
+        {
+          "required": [
+            "intervals"
+          ],
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "counts"
+                ]
+              },
+              {
+                "required": [
+                  "thresholds"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "description": "Operation input structure. See docs/library/INPUT_CONTRACT.md for additional runtime constraints.",
+  "title": "Panel-MIC assess-upper input"
+}

@@ -1,0 +1,1 @@
+{"cohorts":[{"id":"example-assess","operation":"assess-upper","reference":{"thresholds":[1,2],"counts":[0,368,0],"iid":true},"upper_limit":2},{"id":"example-design","operation":"design-upper","reference":{"thresholds":[1,2],"counts":[0,2000,0],"iid":true},"candidates":[1,2,4],"future_n":1000}]}

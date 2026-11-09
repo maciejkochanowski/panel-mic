@@ -1,0 +1,7 @@
+{
+  "reference": {"thresholds": [1, 2], "counts": [1499, 0, 0], "iid": true,
+    "label": "Synthetic mathematical example, not a qualified biological cohort"},
+  "upper_limit": 2, "future_n": 1000, "max_future_n": 1000,
+  "percentile": 0.99, "target_power": 0.8, "alpha": 0.025, "delta": 0.05,
+  "future_ambiguous_budget": 1
+}

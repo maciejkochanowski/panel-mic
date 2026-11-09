@@ -1,0 +1,8 @@
+{
+  "title": "Panel-MIC Python library for upper quantile certification and study planning",
+  "upload_type": "software",
+  "description": "Companion implementation for the methodological study of exact upper quantile certification with ambiguous observations. Provides a Python API and five command-line operations plus batch processing for current certification, candidate design, protected frontiers, diagnostics and protocol assurance. The library includes conservative binomial calculations, tests and an English tutorial. It does not establish biological independence, QC transportability or prospective validation.",
+  "creators": [{"name": "Kochanowski, Maciej"}],
+  "license": "MIT",
+  "keywords": ["exact binomial inference", "quantile certification", "study planning", "interval observations", "MIC"]
+}

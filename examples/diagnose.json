@@ -1,0 +1,12 @@
+{
+  "reference": {
+    "thresholds": [1, 2],
+    "counts": [0, 445, 0],
+    "iid": true,
+    "label": "Synthetic fixed-upper illustration"
+  },
+  "upper_limit": 2,
+  "future_n": 6190,
+  "percentile": 0.99,
+  "max_future_n": 20000
+}

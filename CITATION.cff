@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the exact software release and the methodological article when its final citation is available."
+type: software
+title: "Panel-MIC"
+version: "2.0.0rc1"
+authors:
+  - family-names: "Kochanowski"
+    given-names: "Maciej"
+license: MIT
+abstract: "Python implementation of conditional upper-quantile certification and future-certification planning with ambiguous MIC observations."
+keywords:
+  - exact binomial inference
+  - quantile certification
+  - study planning
+  - ambiguous observations

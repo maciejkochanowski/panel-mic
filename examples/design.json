@@ -1,0 +1,1 @@
+{"reference":{"thresholds":[1,2,4],"counts":[1290,8,5,0],"iid":true,"label":"Synthetic reference"},"candidates":[1,2,4,8],"future_n":1000,"drift":0,"unmodelled_share":0}

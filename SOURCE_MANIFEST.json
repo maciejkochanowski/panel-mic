@@ -1,0 +1,233 @@
+{
+  "schema": "panel-mic.library-export/v1",
+  "canonical_source": "standalone/src/panel_mic",
+  "files": [
+    {
+      "path": ".github/workflows/publish.yml",
+      "sha256": "6f1524ba1935fba70a96ae1a6bf5bce0596985fbf00c2e549ffd7c97aad6283c"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "e7f74b72e220df9dfc455d9289a313d7cc399a56120424b361d48913c48a0cfb"
+    },
+    {
+      "path": ".zenodo.json",
+      "sha256": "cb9a3b42a1ad00dd26376610df1d1466d7b655b2ffa6aa0af6c1cf4f3ef77cb7"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "77e8bfdd30f73d0cbf42525c642285978e9e7e042e5f85420df3495d2ffc19fd"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "ef7c11ae2077440d30016d8fef95196f58e8fdaf2fe17b01874488c9602d28e1"
+    },
+    {
+      "path": "docs/library/API.md",
+      "sha256": "4bf6f8796493277cd2ca8d0b6d7540f86b9d77a0866beb2c6c5bf7532c1fcd9a"
+    },
+    {
+      "path": "docs/library/INPUT_CONTRACT.md",
+      "sha256": "0f52a7571420c5b713ecff16041fc95f2ea392a336702d87fd12c0e3bc6c56a1"
+    },
+    {
+      "path": "docs/library/REPRODUCIBILITY.md",
+      "sha256": "0a3d2514129d9319dc12b584496e04daf0bf45fac94a29fd41576a9284451678"
+    },
+    {
+      "path": "docs/library/requirements-article.txt",
+      "sha256": "076aa9bde07633b47295c869fc04b3492e23cce68fece534127161d0e0274d89"
+    },
+    {
+      "path": "docs/library/TUTORIAL.md",
+      "sha256": "9a7366d1637442daf35e334d27d2aa8f8d6d3347daa0b15115ef55dcea13cf6a"
+    },
+    {
+      "path": "examples/assess.json",
+      "sha256": "96b641c2836f92cfe0121bbb1e5594eeb98d258711cabaa9094327aeb4fa9b97"
+    },
+    {
+      "path": "examples/batch.json",
+      "sha256": "2feb9868fa672cdd3478987cc3237a6f99a6b44e7bff3cbceb56eb4f0445955b"
+    },
+    {
+      "path": "examples/design.json",
+      "sha256": "ee647021e41c0d0dc7e4daf5d59e1c43f057fad3b2a513c68c5c436724700770"
+    },
+    {
+      "path": "examples/diagnose-future-budget.json",
+      "sha256": "a04246af18a79f83617296a3542b1c8e645255b1093d278325b8473fd1af3e94"
+    },
+    {
+      "path": "examples/diagnose.json",
+      "sha256": "980025c7133f397dd84338e2bb074be29844b3c8835e6c9fbf24d25c881d23e9"
+    },
+    {
+      "path": "examples/frontier.json",
+      "sha256": "b446c92d57cb6264d8a38c5b05deed5523bffb51921e7ebbb6977b352d343e44"
+    },
+    {
+      "path": "examples/library/current-certification.json",
+      "sha256": "1f8d521161e404d927b54a8156ac302cfe48815f3c00dfff5f4908cdc16cd729"
+    },
+    {
+      "path": "examples/library/future-design.json",
+      "sha256": "20dd242e0ece6c71736fd1cc90e89394802d4017a7bb045820acb17f7067b806"
+    },
+    {
+      "path": "examples/library/future-diagnostic.json",
+      "sha256": "a647053cd8bc917dd9e3c8e4194b7ca05d8c2cb3a64f82bcea600c7bf9eb98a7"
+    },
+    {
+      "path": "examples/library/protocol-assurance.json",
+      "sha256": "b330a7a57b00923cfb5ee70777da6418c94c95d70e5039776ed20e66dffc6f80"
+    },
+    {
+      "path": "examples/library/qc_profile.py",
+      "sha256": "e9cb29820b1aa31450441028fd6ae376c0be117b974e98b1754e9ab5027feb92"
+    },
+    {
+      "path": "examples/library/tutorial.py",
+      "sha256": "6d419a45bfc3e6a54777b8938b83b271b6e24e7618d30480705149be77516518"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ad3ac474c738a7fbbd6dae9bfd003bcbb5675042bb126722799bfcc7a02584f3"
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "ab9304135780cd946cef3087a7a6e377ec35b0bdb8dde80118e67b0639d82d3d"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f9e72b14cfd6c8a146d32f1e4ab05ec2ad4b46da87a90e4e4db340ba3285aaee"
+    },
+    {
+      "path": "README-library.md",
+      "sha256": "5a1a65cf8469f83f2f628a981add0a5989d8b443af0556084614e8cabd8d5339"
+    },
+    {
+      "path": "src/panel_mic/__init__.py",
+      "sha256": "6325c5e82662cd89a7ff1d5e775a8e21306c7cd008c40ae09112105752a82d1b"
+    },
+    {
+      "path": "src/panel_mic/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "src/panel_mic/_version.py",
+      "sha256": "4631ab1ec8add042f224c01f81b025c0b37ba223739fe8a1f3a6593be9d5295f"
+    },
+    {
+      "path": "src/panel_mic/cli.py",
+      "sha256": "c7a6b3bfc555f4fe07b616182bd5bb4e37164eb7c1ab31d1e4c2f9c548e95714"
+    },
+    {
+      "path": "src/panel_mic/diagnostics.py",
+      "sha256": "789c95dee69c54f6bbe2f1b9175dd5a9af511d3d0328db102c16ef1f7ae9560c"
+    },
+    {
+      "path": "src/panel_mic/errors.py",
+      "sha256": "a68945c98b8fc717579d3eaf32503b5d036221d68d450a9eab6503f71c34e78c"
+    },
+    {
+      "path": "src/panel_mic/models.py",
+      "sha256": "afb8c8b2d981187dc4631250a19300b6afe8521de04d6b20d16dedddc77e32ec"
+    },
+    {
+      "path": "src/panel_mic/numerics.py",
+      "sha256": "2efb139245533da9691ba2e7931a5e55ed8e1e28d214385aa2d312bdcaa87f13"
+    },
+    {
+      "path": "src/panel_mic/observations.py",
+      "sha256": "0f8813464272bb74e0abc7ccf99da3f0c192da881195d1b2150dd2ad101bfb1e"
+    },
+    {
+      "path": "src/panel_mic/planning.py",
+      "sha256": "511ccf1c8aeb2ff9a40a6a69950795dd627fc43192671d2f6bad3961e26c6380"
+    },
+    {
+      "path": "src/panel_mic/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/panel_mic/schemas/assess-upper.json",
+      "sha256": "9a71762a5daf5620f9d9d2012bf00b58efaf161353cee2f4b4616776a13d1296"
+    },
+    {
+      "path": "src/panel_mic/schemas/design-upper.json",
+      "sha256": "8c9c964f2d4c8a0d1435274685e147eab5c7043e76825695abc990a72fabf517"
+    },
+    {
+      "path": "src/panel_mic/schemas/diagnose-upper.json",
+      "sha256": "59305970d8f70c0cefbcffb031e5319b860d20fe235d11ce1e6d078c628ec27f"
+    },
+    {
+      "path": "src/panel_mic/schemas/frontier-upper.json",
+      "sha256": "c8d184915465668201a86fab8701be33fed7b125bee39ac940a8bdd4c6f1a321"
+    },
+    {
+      "path": "src/panel_mic/schemas/input.json",
+      "sha256": "735c4044021b0331b729b5e9e6d1472c6e6c40f759fd8dc7c88219de452fa1ea"
+    },
+    {
+      "path": "src/panel_mic/schemas/protocol-assurance.json",
+      "sha256": "b301e9df5934d17a2f639759d2ad14ea290e24ffa8ecc458379975ad154cb799"
+    },
+    {
+      "path": "src/panel_mic/schemas/protocol.json",
+      "sha256": "b301e9df5934d17a2f639759d2ad14ea290e24ffa8ecc458379975ad154cb799"
+    },
+    {
+      "path": "src/panel_mic/upper.py",
+      "sha256": "c17548b06b2161e9e8e6d1d8f1894227adaf40be09e6d4b62211334e3f6421c0"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "715d345a6b534ca12da156fd2339d24006d3cd98146fdfdd8abfeecf3bbc4177"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "50f89d3d9ce51b46797a59cbf41aa6bb0b995695e4cf262888bf84f9bdd7dae1"
+    },
+    {
+      "path": "tests/test_diagnostics.py",
+      "sha256": "c61561efb00a09f16241d5b0fbfca5cb3da050cab4eed095fce45df48c9ce3d8"
+    },
+    {
+      "path": "tests/test_numerical_scale.py",
+      "sha256": "5fb0de627e7219d4a8fe90c62916f2a04b121f66efd11406b4f79922ff3d462e"
+    },
+    {
+      "path": "tests/test_observation_contract.py",
+      "sha256": "c0461aa55d34e9ee1caf4b8095ab864e47aeaea5dc1a61b09af5ec224ea72ddf"
+    },
+    {
+      "path": "tests/test_protocol_assurance.py",
+      "sha256": "7e91f974f6c8bb694cd6d0058b3d1e9960f3c275738c3db2a742fa47fe6c4804"
+    },
+    {
+      "path": "tests/test_release_interface.py",
+      "sha256": "d36e206eab0381e80056ee1837085714f81f19027c5314d7a024781809490efc"
+    },
+    {
+      "path": "tests/test_release_numerical_regressions.py",
+      "sha256": "510a81960e59b74eb7cf315dfda75236f137d11f8c2997dc05ac132c1973a524"
+    },
+    {
+      "path": "tests/test_review_regressions.py",
+      "sha256": "73be74c990a3719eac9e4416944dc552ffe28d065316f694b30f046f21d8338d"
+    }
+  ],
+  "research_only_tests_excluded": [
+    "test_analysis_provenance.py",
+    "test_applications.py",
+    "test_future_observability.py",
+    "test_penguins_application.py",
+    "test_properties.py",
+    "test_public_adapter.py",
+    "test_randomized_comparator.py",
+    "test_simulation_contract.py"
+  ],
+  "copied_files_identical": true
+}

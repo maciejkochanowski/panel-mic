@@ -1,0 +1,25 @@
+{
+  "reference": {
+    "thresholds": [
+      1.0
+    ],
+    "counts": [
+      392,
+      0
+    ],
+    "iid": true,
+    "label": "Synthetic reconstruction of the article count example",
+    "unit": "mg/L",
+    "metadata": {
+      "original_n": 392,
+      "source": "Synthetic sufficient-count illustration, not a new biological cohort"
+    }
+  },
+  "upper_limit": 1.0,
+  "future_n": 874,
+  "max_future_n": 1000,
+  "percentile": 0.99,
+  "target_power": 0.8,
+  "alpha": 0.025,
+  "delta": 0.05
+}
