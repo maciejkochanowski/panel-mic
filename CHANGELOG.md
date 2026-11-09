@@ -1,8 +1,8 @@
 # Changes
 
-## 2.0.0rc1
+## 2.0.0
 
-Candidate accompanying the methodological article; publication and final verification are separate release gates.
+Companion library for the methodological article. The release candidate passed the numerical, interface, distribution and compatibility checks. Repository publication, DOI registration and package-index publication are recorded separately.
 
 - Centralize conservative Clopper–Pearson bounds and use directed numerical checks at decision boundaries.
 - Verify zero-event minimum reference sample sizes against both adjacent integers.
@@ -15,4 +15,4 @@ Candidate accompanying the methodological article; publication and final verific
 
 Existing Python operation signatures and CLI operation names are retained. New provenance fields are additive. The Python presentation helper panel_mic.cli.explain(result) retains its historical Polish default; pass language="en" for English.
 
-Historical generation records in the scientific supplement describe the version that produced them. They are not test receipts for this candidate.
+Historical generation records in the scientific supplement describe the version that produced them. They are not test receipts for this release.

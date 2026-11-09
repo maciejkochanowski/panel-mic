@@ -35,3 +35,5 @@ The simulation generation campaign is immutable. Reanalysis with corrected softw
 The supplied publishing workflow is manually triggered. It builds and verifies distributions, then uses PyPI Trusted Publishing through a configured GitHub environment. Configure the repository, environment and trusted-publisher relationship in TestPyPI or PyPI before running it. No credentials are stored in source.
 
 The workflow does not publish to Zenodo or assign a DOI. Update citation metadata only with an observed release URL and DOI for the actual artifact. Preserve exact versions and downloadable archive hashes.
+
+Build metadata follows [setuptools pyproject configuration](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html). Publishing uses the documented [PyPI Trusted Publisher workflow](https://docs.pypi.org/trusted-publishers/using-a-publisher/).

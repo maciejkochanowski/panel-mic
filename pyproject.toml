@@ -11,7 +11,7 @@ license = "MIT"
 authors = [{name = "Maciej Kochanowski"}]
 dependencies = ["numpy>=1.26", "scipy>=1.11"]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
@@ -26,6 +26,10 @@ data = ["openpyxl>=3.1", "xlrd>=2", "pypdf>=6"]
 docs = ["reportlab>=4.4", "Markdown>=3.7", "pypdf>=6", "PyMuPDF>=1.24.3"]
 [project.scripts]
 panel-mic = "panel_mic.cli:main"
+[project.urls]
+Repository = "https://github.com/maciejkochanowski/panel-mic"
+Documentation = "https://github.com/maciejkochanowski/panel-mic/tree/main/docs/library"
+Issues = "https://github.com/maciejkochanowski/panel-mic/issues"
 [tool.setuptools.packages.find]
 where = ["src"]
 [tool.setuptools.dynamic]

@@ -1,7 +1,8 @@
 include LICENSE README-library.md CHANGELOG.md CITATION.cff
+include .zenodo.json SOURCE_MANIFEST.json
 recursive-include src/panel_mic *.py *.json py.typed
 recursive-include docs/library *.md *.txt
-recursive-include examples/library *.py *.json
+recursive-include examples *.py *.json
 recursive-include tests *.py
 prune audit
 prune data

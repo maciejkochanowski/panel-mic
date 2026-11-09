@@ -3,6 +3,10 @@
   "canonical_source": "standalone/src/panel_mic",
   "files": [
     {
+      "path": ".gitattributes",
+      "sha256": "4eef5f7bcffa4b5d2cd62d85daf73e14c55f00a41062144baca1a4997d477501"
+    },
+    {
       "path": ".github/workflows/publish.yml",
       "sha256": "6f1524ba1935fba70a96ae1a6bf5bce0596985fbf00c2e549ffd7c97aad6283c"
     },
@@ -11,16 +15,20 @@
       "sha256": "e7f74b72e220df9dfc455d9289a313d7cc399a56120424b361d48913c48a0cfb"
     },
     {
+      "path": ".gitignore",
+      "sha256": "547eb994fae03aaf61ad5cdeef99bce7edca7134640f0d546ac56a16e3d73ba0"
+    },
+    {
       "path": ".zenodo.json",
       "sha256": "cb9a3b42a1ad00dd26376610df1d1466d7b655b2ffa6aa0af6c1cf4f3ef77cb7"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "77e8bfdd30f73d0cbf42525c642285978e9e7e042e5f85420df3495d2ffc19fd"
+      "sha256": "da40e2730f17b3da8f505f11b0069061f0cf19c2c12cf15da0c9b0ac2689a7b2"
     },
     {
       "path": "CITATION.cff",
-      "sha256": "ef7c11ae2077440d30016d8fef95196f58e8fdaf2fe17b01874488c9602d28e1"
+      "sha256": "65e293b761669d56ccac392ed032dbd5a680b6e85f0a81cbabcf8ef42712e148"
     },
     {
       "path": "docs/library/API.md",
@@ -32,7 +40,7 @@
     },
     {
       "path": "docs/library/REPRODUCIBILITY.md",
-      "sha256": "0a3d2514129d9319dc12b584496e04daf0bf45fac94a29fd41576a9284451678"
+      "sha256": "a5c9eafb53a6f85a569650bdb4ab713105671f31ed970f159398df018634d388"
     },
     {
       "path": "docs/library/requirements-article.txt",
@@ -96,11 +104,11 @@
     },
     {
       "path": "MANIFEST.in",
-      "sha256": "ab9304135780cd946cef3087a7a6e377ec35b0bdb8dde80118e67b0639d82d3d"
+      "sha256": "319b32694933e78319e4eb74077affd5dd82858293d315fcadb04867d2a25e02"
     },
     {
       "path": "pyproject.toml",
-      "sha256": "f9e72b14cfd6c8a146d32f1e4ab05ec2ad4b46da87a90e4e4db340ba3285aaee"
+      "sha256": "7a511cf8468b5d628e94f5ad294a0b91b94c9b036fffa076ca5b839b1ca56b5f"
     },
     {
       "path": "README-library.md",
@@ -116,7 +124,7 @@
     },
     {
       "path": "src/panel_mic/_version.py",
-      "sha256": "4631ab1ec8add042f224c01f81b025c0b37ba223739fe8a1f3a6593be9d5295f"
+      "sha256": "870389b855042adb2088eb7897aa29f6cfa1be2a2f33a4cad6e09db513566381"
     },
     {
       "path": "src/panel_mic/cli.py",

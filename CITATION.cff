@@ -2,7 +2,9 @@ cff-version: 1.2.0
 message: "Cite the exact software release and the methodological article when its final citation is available."
 type: software
 title: "Panel-MIC"
-version: "2.0.0rc1"
+version: "2.0.0"
+repository-code: "https://github.com/maciejkochanowski/panel-mic"
+url: "https://github.com/maciejkochanowski/panel-mic/releases/tag/v2.0.0"
 authors:
   - family-names: "Kochanowski"
     given-names: "Maciej"
