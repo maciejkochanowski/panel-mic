@@ -31,8 +31,20 @@
       "sha256": "65e293b761669d56ccac392ed032dbd5a680b6e85f0a81cbabcf8ef42712e148"
     },
     {
+      "path": "LICENSE",
+      "sha256": "ad3ac474c738a7fbbd6dae9bfd003bcbb5675042bb126722799bfcc7a02584f3"
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "319b32694933e78319e4eb74077affd5dd82858293d315fcadb04867d2a25e02"
+    },
+    {
+      "path": "README-library.md",
+      "sha256": "5a1a65cf8469f83f2f628a981add0a5989d8b443af0556084614e8cabd8d5339"
+    },
+    {
       "path": "docs/library/API.md",
-      "sha256": "4bf6f8796493277cd2ca8d0b6d7540f86b9d77a0866beb2c6c5bf7532c1fcd9a"
+      "sha256": "677e9daa7d2dddac5511d58fe62a9d5778cbc943d1d9663f1f3c82e80454cdaf"
     },
     {
       "path": "docs/library/INPUT_CONTRACT.md",
@@ -40,15 +52,15 @@
     },
     {
       "path": "docs/library/REPRODUCIBILITY.md",
-      "sha256": "a5c9eafb53a6f85a569650bdb4ab713105671f31ed970f159398df018634d388"
+      "sha256": "38544f1448903f977bc62a52cebb6dfd3dd8d954b0ce4a9ba98172d3fb3ed807"
+    },
+    {
+      "path": "docs/library/TUTORIAL.md",
+      "sha256": "dd42be45b1471ccde1068568b6245a0630c8436bf56f4d592614b2c7adcbe752"
     },
     {
       "path": "docs/library/requirements-article.txt",
       "sha256": "076aa9bde07633b47295c869fc04b3492e23cce68fece534127161d0e0274d89"
-    },
-    {
-      "path": "docs/library/TUTORIAL.md",
-      "sha256": "9a7366d1637442daf35e334d27d2aa8f8d6d3347daa0b15115ef55dcea13cf6a"
     },
     {
       "path": "examples/assess.json",
@@ -99,20 +111,8 @@
       "sha256": "6d419a45bfc3e6a54777b8938b83b271b6e24e7618d30480705149be77516518"
     },
     {
-      "path": "LICENSE",
-      "sha256": "ad3ac474c738a7fbbd6dae9bfd003bcbb5675042bb126722799bfcc7a02584f3"
-    },
-    {
-      "path": "MANIFEST.in",
-      "sha256": "319b32694933e78319e4eb74077affd5dd82858293d315fcadb04867d2a25e02"
-    },
-    {
       "path": "pyproject.toml",
       "sha256": "7a511cf8468b5d628e94f5ad294a0b91b94c9b036fffa076ca5b839b1ca56b5f"
-    },
-    {
-      "path": "README-library.md",
-      "sha256": "5a1a65cf8469f83f2f628a981add0a5989d8b443af0556084614e8cabd8d5339"
     },
     {
       "path": "src/panel_mic/__init__.py",

@@ -71,3 +71,7 @@ A nonzero hard ambiguity budget and QC caps cannot both be supplied. Stage error
 | Restricted randomized comparator | Scientific supplement only |
 
 Private numerical helpers are implementation details. Mathematical claims reside in the article and proofs; software supplies a reproducible operational implementation.
+
+## Numerical limits
+
+The certified CP inversion returns an uninformative upper bound of 1 for more than 100,000 observed events; the lower bound obtained by complement symmetry can therefore be 0. Nontrivial directed binomial CDF calculations for reported power bounds, QC and assurance raise ValidationError when the count cutoff exceeds 100,000. The primary future N ≤1000 and the P99/P99.9 future cutoffs through the diagnostic cap of 10,000,000 are within this regime. Large reference/control stages and QC calibration counts retain their own limitations. Exact endpoint cases can be resolved without the CDF recurrence.

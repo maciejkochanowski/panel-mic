@@ -51,7 +51,7 @@ The diagnostic checks future N only through its declared cap. Empty admissible i
 
 With reference n=1139, control n=1402, future N=874, and hypothetical possible-exceedance probabilities 0.001 in both stages, the joint success probability is about 7.87% under stage independence. The 80% target is the required future-test power at a tail probability within the certified target. The reference procedure controls the unconditional probability of selecting an inadequately powered design; it does not give a 95% probability of adequacy conditional on an issued recommendation.
 
-The stage probabilities are inputs to a hypothetical observation-law calculation, not fitted estimates or biological guarantees. The two-stage protocol is one study design. Basic current certification does not require two stages.
+The possible-exceedance probabilities are hypothetical inputs to the observation-law calculation, not fitted estimates or biological guarantees. The two-stage protocol is one study design. Basic current certification does not require two stages.
 
 Run the complete Python example:
 

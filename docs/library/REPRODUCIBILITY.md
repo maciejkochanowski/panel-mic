@@ -28,6 +28,8 @@ Install each wheel or source archive into a new environment without the developm
 
 Conservative endpoints can differ from earlier versions by a few floating-point units. Decisions near a numerical boundary follow the certified direction, not an arbitrary epsilon. Unresolved numerical cases remain conservative or explicitly unavailable.
 
+The certified CP inversion returns an uninformative upper bound of 1 when its observed-event count exceeds 100,000; the symmetric lower bound can consequently be 0. Nontrivial directed binomial CDF calculations used for reported power bounds, QC and assurance reject a count cutoff above 100,000 with ValidationError. The article's primary future N ≤1000 and the public-percentile future cutoffs through the diagnostic cap of 10,000,000 lie inside this cutoff regime. Reference or control sample sizes and event counts still require their own checks; the future-N cap does not waive those limits.
+
 The simulation generation campaign is immutable. Reanalysis with corrected software preserves generation receipts and identifies the new analysis separately. Tests, hashes and replay do not establish IID sampling, biological transport, prospective validity or author approval.
 
 ## Publishing
